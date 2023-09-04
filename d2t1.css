@@ -1,0 +1,32 @@
+th {
+    text-align: center;
+}
+th, td {
+    border: 2px black solid;
+    border-radius: 10px;
+}
+table {
+    font-size: x-large;
+    margin: auto;
+    top: 50%;
+    width:900px;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: #96d4d2;
+    margin-bottom: 6%;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    justify-content: space-evenly;
+}
+
+.item {
+    height: 80px;
+    width: 130px;
+    border: 4px solid rgb(163, 215, 59);
+    margin-bottom: 50px;
+}

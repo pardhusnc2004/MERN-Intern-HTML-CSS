@@ -1,0 +1,14 @@
+table {
+    font-size: 1.4em;
+}
+div {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+}
+th {
+    text-align: left;
+}
+.alt1{
+    background-color: #e8e9eb;
+}

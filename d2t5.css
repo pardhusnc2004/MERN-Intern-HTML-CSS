@@ -1,0 +1,42 @@
+.container {
+    margin-left: 20%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}
+* {
+    background-color: #d9da3e;
+}
+a {
+    font-weight: 550;
+    font-size: 1.4em;
+    text-decoration: none;
+    background-color: white;
+}
+.item   {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.balck-box {
+    width: 20px;
+    background-color: black;
+}
+.item-container:hover {
+    transform: scale(108%,108%);
+    transition: .5s;
+}
+.item-container {
+    width: 220px;
+    display: grid;
+    grid-template-columns: 200px 20px;
+    transition: .5s;
+    margin-bottom: 5%;
+}
+
+.body {
+    width: 600px;
+    color: #90008c;
+}

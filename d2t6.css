@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    place-content: center;
+}
+.inp {
+    margin-top:0;
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: 1.2em;
+}
+#lgnbtn {
+    background-color: #f3beda ; 
+    border: none;  color: white; 
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 1%; 
+    width: 514px; 
+    height: 40px;
+}
+.final-cont {
+    height: 60px;
+    border: none;
+    background-color: rgb(236, 232, 232);
+}
